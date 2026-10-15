@@ -1,0 +1,7 @@
+{
+  "openai": "your-openai-api-key-here",
+  "anthropic": "your-anthropic-api-key-here",
+  "google": "your-google-api-key-here",
+  "discord_text_channel_id": "",
+  "discord_music_text_channel_id": ""
+}

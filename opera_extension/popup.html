@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Helena Controller</title>
+    <style>
+        body { width: 320px; padding: 10px; font-family: Arial; }
+        .connected { background: #4CAF50; color: white; padding: 5px; border-radius: 4px; }
+        .disconnected { background: #f44336; color: white; padding: 5px; border-radius: 4px; }
+        button { width: 100%; padding: 8px; margin: 5px 0; cursor: pointer; border-radius: 4px; }
+        .tab-item { padding: 5px; border-bottom: 1px solid #ddd; cursor: pointer; }
+        .tab-item:hover { background: #f0f0f0; }
+        .info { font-size: 11px; color: #666; margin: 3px 0; }
+        .error { font-size: 11px; color: #d32f2f; margin: 3px 0; }
+    </style>
+</head>
+<body>
+    <h3>Helena - Control de Navegador</h3>
+    <div id="status" class="disconnected">Desconectado</div>
+    <div id="portInfo" class="info"></div>
+    <div id="errorInfo" class="error"></div>
+    <button id="refreshBtn">Actualizar lista</button>
+    <div id="tabList"></div>
+    <script src="popup.js"></script>
+</body>
+</html>

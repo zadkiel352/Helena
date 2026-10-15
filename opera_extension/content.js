@@ -1,0 +1,1 @@
+console.log('[Helena] Extensión activa en:', window.location.href);

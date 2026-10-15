@@ -1,0 +1,645 @@
+{
+  "version": "V37.5.1_AUTO_GESTURE_CADENCE_FIX",
+  "canvas_size": [1149, 1369],
+  "pivots": {
+    "head": [605, 405],
+    "left_upper_arm": [790, 500],
+    "left_forearm": [820, 825],
+    "left_hand": [940, 1070],
+    "right_upper_arm": [400, 470],
+    "right_forearm": [350, 725],
+    "right_hand": [200, 1080]
+  },
+  "motion_limits": {
+    "head": 2.4,
+    "upper_arm": 3.5,
+    "forearm": 4.8,
+    "hand": 3.5
+  },
+  "layer_offsets": {
+    "head": [0, 0],
+    "hair_front": [0, 0],
+    "hair_back": [0, 0],
+    "neck": [0, 0],
+    "body_base": [0, 0],
+    "dress_top_front": [0, 0],
+    "skirt_clothes_front": [0, 0]
+  },
+  "debug": {
+    "show_pivots": false,
+    "show_layer_bounds": false,
+    "show_model_rect": false,
+    "show_gesture_overlay": true,
+    "gesture_overlay_position": "bottom_status"
+  },
+ "gesture_control": {
+   "auto_enabled": true,
+   "manual_debounce_seconds": 0.75,
+   "auto_min_interval_seconds": 22.0,
+   "manual_lock_extra_seconds": 0.25,
+   "auto_cannot_interrupt_manual": true,
+   "auto_cannot_interrupt_any_active_gesture": true,
+   "gesture_intensity_multiplier": 1.20,
+   "debug_gesture_state": false,
+   "manual_attack_seconds": 0.22,
+   "manual_release_seconds": 0.14,
+   "auto_attack_seconds": 0.42,
+   "auto_release_seconds": 0.28,
+   "gesture_stagger_enabled": true,
+   "gesture_micro_bounce_enabled": true,
+   "gesture_variants_enabled": true
+  },
+  "gesture_limits": {
+    "head": 8.0,
+    "upper_arm": 18.0,
+    "forearm": 22.0,
+    "hand": 22.0
+  },
+  "arm_rig": {
+    "mode": "hierarchical",
+    "debug_show_transformed_pivots": false
+  },
+  "gestures": {
+    "idle": {
+      "duration": 0.0,
+      "head": 0.0,
+      "left_upper_arm": 0.0,
+      "left_forearm": 0.0,
+      "left_hand": 0.0,
+      "right_upper_arm": 0.0,
+      "right_forearm": 0.0,
+      "right_hand": 0.0
+    },
+    "saludo": {
+      "duration": 2.4,
+      "head": -2.0,
+      "left_upper_arm": 0.0,
+      "left_forearm": 0.0,
+      "left_hand": 0.0,
+      "right_upper_arm": 18.0,
+      "right_forearm": -24.0,
+      "right_hand": 24.0,
+      "offsets": {
+        "head": [0, 0],
+        "left_upper_arm": [0, 0],
+        "left_forearm": [0, 0],
+        "left_hand": [0, 0],
+        "right_upper_arm": [0, -3],
+        "right_forearm": [8, -8],
+        "right_hand": [18, -12]
+      },
+      "delays": {
+        "head": 0.00,
+        "left_upper_arm": 0.00,
+        "left_forearm": 0.00,
+        "left_hand": 0.00,
+        "right_upper_arm": 0.04,
+        "right_forearm": 0.10,
+        "right_hand": 0.16
+      }
+    },
+    "presentando": {
+      "duration": 2.5,
+      "head": 1.2,
+      "left_upper_arm": -18.0,
+      "left_forearm": 22.0,
+      "left_hand": -20.0,
+      "right_upper_arm": 3.0,
+      "right_forearm": -4.0,
+      "right_hand": 4.0,
+      "offsets": {
+        "head": [0, 0],
+        "left_upper_arm": [-2, -2],
+        "left_forearm": [-12, -6],
+        "left_hand": [-24, -4],
+        "right_upper_arm": [0, 0],
+        "right_forearm": [0, 0],
+        "right_hand": [0, 0]
+      },
+      "delays": {
+        "head": 0.00,
+        "left_upper_arm": 0.04,
+        "left_forearm": 0.11,
+        "left_hand": 0.18,
+        "right_upper_arm": 0.10,
+        "right_forearm": 0.16,
+        "right_hand": 0.22
+      }
+    },
+    "pensando": {
+      "duration": 2.2,
+      "head": -5.0,
+      "left_upper_arm": 1.0,
+      "left_forearm": -2.0,
+      "left_hand": 2.0,
+      "right_upper_arm": -1.0,
+      "right_forearm": 2.0,
+      "right_hand": -2.0,
+      "offsets": {
+        "head": [0, 0],
+        "left_upper_arm": [0, 0],
+        "left_forearm": [0, 0],
+        "left_hand": [0, 0],
+        "right_upper_arm": [0, 0],
+        "right_forearm": [0, 0],
+        "right_hand": [0, 0]
+      },
+      "delays": {
+        "head": 0.00,
+        "left_upper_arm": 0.08,
+        "left_forearm": 0.12,
+        "left_hand": 0.18,
+        "right_upper_arm": 0.08,
+        "right_forearm": 0.12,
+        "right_hand": 0.18
+      }
+    },
+    "escuchando": {
+      "duration": 2.0,
+      "head": 5.0,
+      "left_upper_arm": 0.5,
+      "left_forearm": 1.5,
+      "left_hand": 1.5,
+      "right_upper_arm": -0.5,
+      "right_forearm": -1.5,
+      "right_hand": -1.5,
+      "offsets": {
+        "head": [0, 0],
+        "left_upper_arm": [0, 0],
+        "left_forearm": [0, 0],
+        "left_hand": [0, 0],
+        "right_upper_arm": [0, 0],
+        "right_forearm": [0, 0],
+        "right_hand": [0, 0]
+      },
+      "delays": {
+        "head": 0.00,
+        "left_upper_arm": 0.06,
+        "left_forearm": 0.10,
+        "left_hand": 0.14,
+        "right_upper_arm": 0.06,
+        "right_forearm": 0.10,
+        "right_hand": 0.14
+      }
+    },
+    "feliz": {
+      "duration": 2.1,
+      "head": -2.5,
+      "left_upper_arm": -10.0,
+      "left_forearm": 14.0,
+      "left_hand": -14.0,
+      "right_upper_arm": 10.0,
+      "right_forearm": -14.0,
+      "right_hand": 14.0,
+      "offsets": {
+        "head": [0, 0],
+        "left_upper_arm": [0, 0],
+        "left_forearm": [0, 0],
+        "left_hand": [-8, -3],
+        "right_upper_arm": [0, 0],
+        "right_forearm": [0, 0],
+        "right_hand": [8, -3]
+      },
+      "delays": {
+        "head": 0.00,
+        "left_upper_arm": 0.05,
+        "right_upper_arm": 0.05,
+        "left_forearm": 0.11,
+        "right_forearm": 0.11,
+        "left_hand": 0.17,
+        "right_hand": 0.17
+      }
+    },
+    "enojada_leve": {
+      "duration": 2.0,
+      "head": 4.5,
+      "left_upper_arm": 5.0,
+      "left_forearm": -6.0,
+      "left_hand": 5.0,
+      "right_upper_arm": -5.0,
+      "right_forearm": 6.0,
+      "right_hand": -5.0,
+      "offsets": {
+        "head": [0, 0],
+        "left_upper_arm": [0, 0],
+        "left_forearm": [0, 0],
+        "left_hand": [0, 0],
+        "right_upper_arm": [0, 0],
+        "right_forearm": [0, 0],
+        "right_hand": [0, 0]
+      },
+      "delays": {
+        "head": 0.00,
+        "left_upper_arm": 0.03,
+        "right_upper_arm": 0.03,
+        "left_forearm": 0.07,
+        "right_forearm": 0.07,
+        "left_hand": 0.12,
+        "right_hand": 0.12
+      }
+    },
+    "debug_saludo_grande": {
+      "duration": 4.0,
+      "head": -4.0,
+      "left_upper_arm": 0.0,
+      "left_forearm": 0.0,
+      "left_hand": 0.0,
+      "right_upper_arm": 28.0,
+      "right_forearm": -35.0,
+      "right_hand": 35.0,
+      "offsets": {
+        "head": [0, 0],
+        "left_upper_arm": [0, 0],
+        "left_forearm": [0, 0],
+        "left_hand": [0, 0],
+        "right_upper_arm": [0, 0],
+        "right_forearm": [0, 0],
+        "right_hand": [0, 0]
+      }
+    }
+  },
+  "gesture_variants": {
+    "saludo": [
+      {
+        "name": "saludo_mano_wave",
+        "weight": 0.75,
+        "duration": 1.8,
+        "head": -1.5,
+        "left_upper_arm": 0.0,
+        "left_forearm": 0.0,
+        "left_hand": 0.0,
+        "right_upper_arm": 13.0,
+        "right_forearm": -18.0,
+        "right_hand": 18.0,
+        "offsets": {
+          "head": [0, 0],
+          "left_upper_arm": [0, 0],
+          "left_forearm": [0, 0],
+          "left_hand": [0, 0],
+          "right_upper_arm": [0, 0],
+          "right_forearm": [6, -6],
+          "right_hand": [14, -8]
+        },
+        "delays": {
+          "head": 0.00,
+          "left_upper_arm": 0.00,
+          "left_forearm": 0.00,
+          "left_hand": 0.00,
+          "right_upper_arm": 0.03,
+          "right_forearm": 0.08,
+          "right_hand": 0.12
+        },
+        "oscillations": {
+          "right_hand": {
+            "angle_amplitude": 6.0,
+            "frequency": 3.5,
+            "start": 0.35,
+            "end": 1.35
+          }
+        }
+      },
+      {
+        "name": "saludo_corto",
+        "weight": 0.25,
+        "duration": 1.3,
+        "head": -1.0,
+        "left_upper_arm": 0.0,
+        "left_forearm": 0.0,
+        "left_hand": 0.0,
+        "right_upper_arm": 8.0,
+        "right_forearm": -12.0,
+        "right_hand": 16.0,
+        "offsets": {
+          "head": [0, 0],
+          "left_upper_arm": [0, 0],
+          "left_forearm": [0, 0],
+          "left_hand": [0, 0],
+          "right_upper_arm": [0, 0],
+          "right_forearm": [0, 0],
+          "right_hand": [0, 0]
+        },
+        "delays": {
+          "head": 0.00,
+          "left_upper_arm": 0.00,
+          "left_forearm": 0.00,
+          "left_hand": 0.00,
+          "right_upper_arm": 0.03,
+          "right_forearm": 0.07,
+          "right_hand": 0.11
+        },
+        "oscillations": {
+          "right_hand": {
+            "angle_amplitude": 4.0,
+            "frequency": 4.0,
+            "start": 0.25,
+            "end": 0.95
+          }
+        }
+      }
+    ],
+    "presentando": [
+      {
+        "name": "presentando_izquierda_clara",
+        "weight": 0.80,
+        "duration": 1.9,
+        "head": 1.0,
+        "left_upper_arm": -22.0,
+        "left_forearm": 26.0,
+        "left_hand": -22.0,
+        "right_upper_arm": 0.0,
+        "right_forearm": 0.0,
+        "right_hand": 0.0,
+        "offsets": {
+          "head": [0, 0],
+          "left_upper_arm": [-2, -2],
+          "left_forearm": [-16, -6],
+          "left_hand": [-26, -4],
+          "right_upper_arm": [0, 0],
+          "right_forearm": [0, 0],
+          "right_hand": [0, 0]
+        },
+        "delays": {
+          "head": 0.00,
+          "left_upper_arm": 0.03,
+          "left_forearm": 0.09,
+          "left_hand": 0.15,
+          "right_upper_arm": 0.00,
+          "right_forearm": 0.00,
+          "right_hand": 0.00
+        }
+      },
+      {
+        "name": "presentando_suave",
+        "weight": 0.20,
+        "duration": 1.6,
+        "head": 0.8,
+        "left_upper_arm": -14.0,
+        "left_forearm": 16.0,
+        "left_hand": -14.0,
+        "right_upper_arm": 0.0,
+        "right_forearm": 0.0,
+        "right_hand": 0.0,
+        "offsets": {
+          "head": [0, 0],
+          "left_upper_arm": [0, 0],
+          "left_forearm": [0, 0],
+          "left_hand": [-14, -3],
+          "right_upper_arm": [0, 0],
+          "right_forearm": [0, 0],
+          "right_hand": [0, 0]
+        },
+        "delays": {
+          "head": 0.00,
+          "left_upper_arm": 0.03,
+          "left_forearm": 0.09,
+          "left_hand": 0.15,
+          "right_upper_arm": 0.00,
+          "right_forearm": 0.00,
+          "right_hand": 0.00
+        }
+      }
+    ],
+    "pensando": [
+      {
+        "name": "pensando_cabeza_ojos",
+        "weight": 0.75,
+        "duration": 1.5,
+        "head": -6.0,
+        "left_upper_arm": 0.0,
+        "left_forearm": 0.0,
+        "left_hand": 0.0,
+        "right_upper_arm": 0.0,
+        "right_forearm": 0.0,
+        "right_hand": 0.0,
+        "offsets": {
+          "head": [0, 0],
+          "left_upper_arm": [0, 0],
+          "left_forearm": [0, 0],
+          "left_hand": [0, 0],
+          "right_upper_arm": [0, 0],
+          "right_forearm": [0, 0],
+          "right_hand": [0, 0]
+        },
+        "delays": {
+          "head": 0.00,
+          "left_upper_arm": 0.00,
+          "left_forearm": 0.00,
+          "left_hand": 0.00,
+          "right_upper_arm": 0.00,
+          "right_forearm": 0.00,
+          "right_hand": 0.00
+        },
+        "expression": {
+          "eyes_half_opacity": 0.20
+        }
+      },
+      {
+        "name": "pensando_micro",
+        "weight": 0.25,
+        "duration": 1.2,
+        "head": -3.5,
+        "left_upper_arm": 0.0,
+        "left_forearm": 0.0,
+        "left_hand": 0.0,
+        "right_upper_arm": 0.0,
+        "right_forearm": 0.0,
+        "right_hand": 0.0,
+        "offsets": {
+          "head": [0, 0],
+          "left_upper_arm": [0, 0],
+          "left_forearm": [0, 0],
+          "left_hand": [0, 0],
+          "right_upper_arm": [0, 0],
+          "right_forearm": [0, 0],
+          "right_hand": [0, 0]
+        },
+        "delays": {
+          "head": 0.00,
+          "left_upper_arm": 0.00,
+          "left_forearm": 0.00,
+          "left_hand": 0.00,
+          "right_upper_arm": 0.00,
+          "right_forearm": 0.00,
+          "right_hand": 0.00
+        },
+        "expression": {
+          "eyes_half_opacity": 0.12
+        }
+      }
+    ],
+    "escuchando": [
+      {
+        "name": "escuchando_cabeza_lado",
+        "weight": 1.0,
+        "duration": 1.3,
+        "head": 6.0,
+        "left_upper_arm": 0.0,
+        "left_forearm": 0.0,
+        "left_hand": 0.0,
+        "right_upper_arm": 0.0,
+        "right_forearm": 0.0,
+        "right_hand": 0.0,
+        "offsets": {
+          "head": [0, 0],
+          "left_upper_arm": [0, 0],
+          "left_forearm": [0, 0],
+          "left_hand": [0, 0],
+          "right_upper_arm": [0, 0],
+          "right_forearm": [0, 0],
+          "right_hand": [0, 0]
+        },
+        "delays": {
+          "head": 0.00,
+          "left_upper_arm": 0.00,
+          "left_forearm": 0.00,
+          "left_hand": 0.00,
+          "right_upper_arm": 0.00,
+          "right_forearm": 0.00,
+          "right_hand": 0.00
+        }
+      }
+    ],
+    "feliz": [
+      {
+        "name": "feliz_abierta_manos",
+        "weight": 0.60,
+        "duration": 1.5,
+        "head": -2.5,
+        "left_upper_arm": -12.0,
+        "left_forearm": 16.0,
+        "left_hand": -16.0,
+        "right_upper_arm": 12.0,
+        "right_forearm": -16.0,
+        "right_hand": 16.0,
+        "offsets": {
+          "head": [0, 0],
+          "left_upper_arm": [0, 0],
+          "left_forearm": [0, 0],
+          "left_hand": [-8, -3],
+          "right_upper_arm": [0, 0],
+          "right_forearm": [0, 0],
+          "right_hand": [8, -3]
+        },
+        "delays": {
+          "head": 0.00,
+          "left_upper_arm": 0.05,
+          "right_upper_arm": 0.05,
+          "left_forearm": 0.11,
+          "right_forearm": 0.11,
+          "left_hand": 0.17,
+          "right_hand": 0.17
+        },
+        "oscillations": {
+          "left_hand": {
+            "angle_amplitude": 3.0,
+            "frequency": 3.0,
+            "start": 0.30,
+            "end": 1.05
+          },
+          "right_hand": {
+            "angle_amplitude": 3.0,
+            "frequency": 3.0,
+            "start": 0.30,
+            "end": 1.05
+          }
+        }
+      },
+      {
+        "name": "feliz_cabeza",
+        "weight": 0.40,
+        "duration": 1.2,
+        "head": -4.0,
+        "left_upper_arm": -4.0,
+        "left_forearm": 5.0,
+        "left_hand": -6.0,
+        "right_upper_arm": 4.0,
+        "right_forearm": -5.0,
+        "right_hand": 6.0,
+        "offsets": {
+          "head": [0, 0],
+          "left_upper_arm": [0, 0],
+          "left_forearm": [0, 0],
+          "left_hand": [0, 0],
+          "right_upper_arm": [0, 0],
+          "right_forearm": [0, 0],
+          "right_hand": [0, 0]
+        },
+        "delays": {
+          "head": 0.00,
+          "left_upper_arm": 0.05,
+          "right_upper_arm": 0.05,
+          "left_forearm": 0.11,
+          "right_forearm": 0.11,
+          "left_hand": 0.17,
+          "right_hand": 0.17
+        }
+      }
+    ],
+    "enojada_leve": [
+      {
+        "name": "enojada_mirada",
+        "weight": 1.0,
+        "duration": 1.4,
+        "head": 4.5,
+        "left_upper_arm": 2.0,
+        "left_forearm": -3.0,
+        "left_hand": 3.0,
+        "right_upper_arm": -2.0,
+        "right_forearm": 3.0,
+        "right_hand": -3.0,
+        "offsets": {
+          "head": [0, 0],
+          "left_upper_arm": [0, 0],
+          "left_forearm": [0, 0],
+          "left_hand": [0, 0],
+          "right_upper_arm": [0, 0],
+          "right_forearm": [0, 0],
+          "right_hand": [0, 0]
+        },
+        "delays": {
+          "head": 0.00,
+          "left_upper_arm": 0.00,
+          "right_upper_arm": 0.00,
+          "left_forearm": 0.00,
+          "right_forearm": 0.00,
+          "left_hand": 0.00,
+          "right_hand": 0.00
+        },
+        "expression": {
+          "eyes_half_opacity": 0.35
+        }
+      }
+    ]
+  },
+  "auto_gesture_policy": {
+    "enabled": true,
+    "startup_grace_seconds": 18.0,
+    "blocked_if_manual_recent_seconds": 12.0,
+    "blocked_if_speaking_started_recently_seconds": 3.0,
+    "global_min_interval_seconds": 28.0,
+    "same_gesture_min_interval_seconds": 60.0,
+    "decision_interval_min_seconds": 5.0,
+    "decision_interval_max_seconds": 9.0,
+    "speaking_chance": 0.22,
+    "listening_chance": 0.10,
+    "thinking_chance": 0.40,
+    "allowed_while_speaking": {
+      "presentando": 0.70,
+      "feliz": 0.30
+    },
+    "allowed_while_listening": {
+      "escuchando": 0.75,
+      "pensando": 0.25
+    },
+    "allowed_while_thinking": {
+      "pensando": 1.0
+    },
+    "blocked_states": [
+      "MUTED",
+      "ERROR",
+      "DISCORD_MUSIC",
+      "MUSIC"
+    ],
+    "no_repeat_last_gesture": true
+  }
+}

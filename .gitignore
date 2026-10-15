@@ -1,0 +1,74 @@
+# Perfiles de navegador aislados (contienen cookies, historial, datos personales)
+browser_profiles/
+
+# Configuración con datos sensibles
+config/api_keys.json
+config/browser_config.json
+config/*.json
+!config/*.example.json
+.env
+.env.*
+!.env.example
+
+# Tokens y sesiones
+tokens/
+sessions/
+cookies/
+
+# Backups del sistema
+backups/
+summaries/
+music/
+
+# Reportes de auditoría
+reports/
+
+# Logs del sistema
+logs/
+*.log
+
+# Cache de Python
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Playwright
+playwright-report/
+playwright/.cache/
+
+# Archivos temporales
+*.tmp
+*.bak
+*.backup
+
+# Datos de usuario
+memory/*
+!memory/*.py
+memory/long_term.json
+memory/music_preferences.json
+memory/helena_notes.md
+memory/short_term.json
+
+# Sesiones de WhatsApp
+whatsapp_session/

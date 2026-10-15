@@ -1,0 +1,11 @@
+{
+  "browser_ws_port": 8766,
+  "cdp_port": 9222,
+  "browser_preferred": "opera",
+  "extension_path": "opera_extension",
+  "browser_profiles": {
+    "opera": "browser_profiles\\opera_helena",
+    "chrome": "browser_profiles\\chrome_helena",
+    "edge": "browser_profiles\\edge_helena"
+  }
+}
